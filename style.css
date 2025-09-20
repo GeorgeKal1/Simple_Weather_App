@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top right, #4facfe, #00f2fe);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+#app {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+}
+
+/* Input field */
+#cityInput {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+}
+
+/* Button */
+.button1 {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #0077b6;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#fetchWeatherBtn:hover {
+  background: #caf0f8;
+}
+
+/* Weather results */
+#weatherResult {
+  margin-top: 1.5rem;
+}
+
+#cityName {
+  margin-bottom: 0.5rem;
+}
+
+
+#description {
+  margin-top: 0.5rem;
+}

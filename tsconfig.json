@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "outDir": "./dest",
+
+    // Environment Settings
+    "module": "none",
+    "target": "es6",
+    "types": [],
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": false, 
+    "declarationMap": false,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Recommended Options
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
