@@ -6,7 +6,7 @@ const temperature = document.getElementById('temperature');
 const description = document.getElementById('description');
 const viewMoreBtn = document.getElementById('viewMoreBtn');
 const icon = document.getElementById('icon');
-let apikey = '8b086032454d2f9166620c8bf1ad1bef';
+let apikey = 'Your_API_Key_Here'; // Replace with your OpenWeatherMap API key
 let weatherData;
 button === null || button === void 0 ? void 0 : button.addEventListener('click', () => {
     const city = cityInput.value;

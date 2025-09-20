@@ -5,7 +5,7 @@ const temperature = document.getElementById('temperature') as HTMLElement;
 const description = document.getElementById('description') as HTMLElement;
 const viewMoreBtn = document.getElementById('viewMoreBtn') as HTMLButtonElement;
 const icon= document.getElementById('icon') as HTMLImageElement;
-let apikey='8b086032454d2f9166620c8bf1ad1bef';
+let apikey='Your_API_Key_Here'; // Replace with your OpenWeatherMap API key
 let weatherData: any;
 
 button?.addEventListener('click',()=>{
@@ -43,7 +43,7 @@ function clearData(){
     description.innerHTML = '';
     viewMoreBtn.style.display = 'none';
     temperature.style.backgroundColor = 'inherit';
-    description.style.backgroundColor = 'inherit';
+    description.style.backgroundColor = 'inherit';  
 }
 
 function getData(city: string){
